@@ -7,7 +7,7 @@ module Holidays
   # All the definitions are available at https://github.com/holidays/holidays
   module DE # :nodoc:
     def self.defined_regions
-      [:de, :de_bw, :de_by, :de_he, :de_nw, :de_rp, :de_sl, :de_sn_sorbian, :de_th_cath, :de_sn, :de_st, :de_be, :de_by_cath, :de_by_augsburg, :de_bb, :de_mv, :de_th, :de_hb, :de_hh, :de_ni, :de_sh]
+      [:de, :de_bw, :de_by, :de_he, :de_nw, :de_rp, :de_sl, :de_sn_sorbian, :de_th_cath, :de_sn, :de_st, :de_be, :de_mv, :de_by_cath, :de_by_augsburg, :de_bb, :de_th, :de_hb, :de_hh, :de_ni, :de_sh]
     end
 
     def self.holidays_by_month
@@ -24,7 +24,8 @@ module Holidays
             {:function => "easter(year)", :function_arguments => [:year], :function_modifier => -46, :type => :informal, :name => "Aschermittwoch", :regions => [:de_bw, :de_by, :de_he, :de_nw, :de_rp, :de_sl, :de_sn]}],
       1 => [{:mday => 1, :name => "Neujahrstag", :regions => [:de]},
             {:mday => 6, :name => "Heilige Drei Könige", :regions => [:de_bw, :de_by, :de_st]}],
-      3 => [{:mday => 8, :year_ranges => { :from => 2019 },:name => "Internationaler Frauentag", :regions => [:de_be]}],
+      3 => [{:mday => 8, :year_ranges => { :from => 2019 },:name => "Internationaler Frauentag", :regions => [:de_be]},
+            {:mday => 8, :year_ranges => { :from => 2023 },:name => "Internationaler Frauentag", :regions => [:de_mv]}],
       5 => [{:mday => 1, :name => "Tag der Arbeit", :regions => [:de]},
             {:mday => 8, :year_ranges => { :limited => [2020] },:name => "Tag der Befreiung", :regions => [:de_be]}],
       8 => [{:mday => 15, :name => "Mariä Himmelfahrt", :regions => [:de_by_cath, :de_by_augsburg, :de_sl]},
