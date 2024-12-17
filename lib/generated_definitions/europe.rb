@@ -217,7 +217,7 @@ module Holidays
             {:mday => 1, :type => :informal, :name => "Arbejdernes kampdag", :regions => [:dk]},
             {:mday => 5, :type => :informal, :name => "Danmarks befrielse", :regions => [:dk]},
             {:mday => 1, :name => "Tag der Arbeit", :regions => [:de]},
-            {:mday => 8, :year_ranges => { :limited => [2020] },:name => "Tag der Befreiung", :regions => [:de_be]},
+            {:mday => 8, :year_ranges => { :limited => [2025] },:name => "80. Jahrestag (einmalig)", :regions => [:de_be]},
             {:mday => 1, :name => "Πρωτομαγιά", :regions => [:el]},
             {:mday => 1, :observed => "to_monday_if_sunday(date)", :observed_arguments => [:date], :name => "Día del Trabajador", :regions => [:es]},
             {:mday => 2, :observed => "to_monday_if_sunday(date)", :observed_arguments => [:date], :name => "Fiesta de la Comunidad", :regions => [:es_m]},
